@@ -3,7 +3,7 @@ class nivelJairo:
         self.nombre = nombre    # Nombre del personaje
         self.ataque = ataque    # Puntos de ataque base
         self.defensa = defensa  # Puntos de defensa
-        self.vida = vida    # Puntos de vida actuales
+        self.vida = vida    # Puntos de vida mas reciente
 
     def atacar(self, enemigo):
         daño = max(1, self.ataque - enemigo.defensa // 2)
